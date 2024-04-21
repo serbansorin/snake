@@ -1,0 +1,24 @@
+{
+    "name": "sorin/snake",
+    "description": "Snake Game for browser",
+    "autoload": {
+        "psr-4": {
+            "Game\\": "game/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sorin Serban"
+        }
+    ],
+    "require": {
+        "symfony/skeleton": "^6.4",
+        "symfony/console": "^6.4",
+        "symfony/flex": "^2"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}
